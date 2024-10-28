@@ -466,6 +466,9 @@ namespace StoryLine
                     option2Label.Text = "no";
                     break;
                 case 99:
+                    topLabel.Text = "would you like to play again?";
+                    option1Label.Text = "yes";
+                    option2Label.Text = "no";
                     break;
                 default:
                     break;

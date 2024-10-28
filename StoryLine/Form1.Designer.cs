@@ -40,9 +40,9 @@
             // 
             // topLabel
             // 
-            this.topLabel.Font = new System.Drawing.Font("Algerian", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.topLabel.Font = new System.Drawing.Font("Algerian", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.topLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.topLabel.Location = new System.Drawing.Point(51, -2);
+            this.topLabel.Location = new System.Drawing.Point(48, 9);
             this.topLabel.Name = "topLabel";
             this.topLabel.Size = new System.Drawing.Size(310, 90);
             this.topLabel.TabIndex = 0;
@@ -120,9 +120,9 @@
             // label1
             // 
             this.label1.Image = global::StoryLine.Properties.Resources.Screen_Shot_2018_11_24_at_5_51_21_PM_768x495;
-            this.label1.Location = new System.Drawing.Point(51, 68);
+            this.label1.Location = new System.Drawing.Point(51, 124);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 207);
+            this.label1.Size = new System.Drawing.Size(310, 151);
             this.label1.TabIndex = 7;
             this.label1.Text = "label1";
             // 
