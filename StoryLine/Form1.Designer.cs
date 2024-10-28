@@ -34,8 +34,8 @@
             this.option2Label = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.option3Label = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // topLabel
@@ -46,7 +46,7 @@
             this.topLabel.Name = "topLabel";
             this.topLabel.Size = new System.Drawing.Size(310, 90);
             this.topLabel.TabIndex = 0;
-            this.topLabel.Text = "Start";
+            this.topLabel.Text = "Start?";
             this.topLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
@@ -69,6 +69,7 @@
             this.option1Label.Name = "option1Label";
             this.option1Label.Size = new System.Drawing.Size(229, 47);
             this.option1Label.TabIndex = 3;
+            this.option1Label.Text = "yes";
             this.option1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // option2Label
@@ -79,6 +80,7 @@
             this.option2Label.Name = "option2Label";
             this.option2Label.Size = new System.Drawing.Size(229, 47);
             this.option2Label.TabIndex = 4;
+            this.option2Label.Text = "No";
             this.option2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button3
@@ -103,15 +105,6 @@
             this.option3Label.TabIndex = 6;
             this.option3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
-            // 
-            this.label1.Image = global::StoryLine.Properties.Resources.Screen_Shot_2018_11_24_at_5_51_21_PM_768x495;
-            this.label1.Location = new System.Drawing.Point(51, 68);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 207);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
-            // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -123,6 +116,15 @@
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.Image = global::StoryLine.Properties.Resources.Screen_Shot_2018_11_24_at_5_51_21_PM_768x495;
+            this.label1.Location = new System.Drawing.Point(51, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(310, 207);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 

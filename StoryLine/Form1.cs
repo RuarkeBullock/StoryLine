@@ -403,6 +403,7 @@ namespace StoryLine
                     topLabel.Text = "you call into a pit and die. Play Again?";
                     option1Label.Text = "yes";
                     option2Label.Text = "no";
+                    option3Label.Text = "";
                     break;
                 case 9:
                     topLabel.Text = "you slip and fall on his baby oil. Play again?";
