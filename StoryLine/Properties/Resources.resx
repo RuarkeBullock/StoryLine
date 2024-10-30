@@ -121,6 +121,9 @@
   <data name="red_arrow_14836430521Cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red-arrow-14836430521Cn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Scary_Sound_Mark_DiAngelo_1101865305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scary_Sound-Mark_DiAngelo-1101865305.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Screen_Shot_2018_11_24_at_5_51_21_PM_768x495" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screen-Shot-2018-11-24-at-5.51.21-PM-768x495.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

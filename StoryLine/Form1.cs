@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,7 +15,7 @@ namespace StoryLine
     {
         // tracks what page of the story the user is at
         int page = 1;
-
+        private object close;
 
         public Form1()
         {
@@ -39,12 +40,12 @@ namespace StoryLine
 
             else if (page == 3)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 4)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 5)
@@ -54,7 +55,7 @@ namespace StoryLine
 
             else if (page == 6)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 7)
@@ -64,12 +65,12 @@ namespace StoryLine
 
             else if (page == 8)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 9)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 10)
@@ -79,7 +80,7 @@ namespace StoryLine
 
             else if (page == 11)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 12)
@@ -89,7 +90,7 @@ namespace StoryLine
 
             else if (page == 13)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 14)
@@ -109,7 +110,7 @@ namespace StoryLine
 
             else if (page == 17)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 18)
@@ -119,12 +120,12 @@ namespace StoryLine
 
             else if (page == 19)
             {
-                page = 99;
+                page = 1;
             }
 
             else if (page == 20)
             {
-                page = 99;
+                page = 1;
             }
             else if (page == 99)
             {
@@ -361,6 +362,8 @@ namespace StoryLine
 
         public void DisplayPage()
         {
+            soundplayer sp = new soundplayer(Properties.Resources.Scary_Sound_Mark_DiAngelo_1101865305);
+
             switch (page)
             {
                 case 1:
@@ -469,11 +472,13 @@ namespace StoryLine
                     topLabel.Text = "would you like to play again?";
                     option1Label.Text = "yes";
                     option2Label.Text = "no";
+                    Refresh();
+                    Thread.Sleep(1000);
+                    Application.Exit();
                     break;
                 default:
                     break;
             }
         }
-    
     }
 }

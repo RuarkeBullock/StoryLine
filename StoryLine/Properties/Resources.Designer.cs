@@ -81,6 +81,15 @@ namespace StoryLine.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Scary_Sound_Mark_DiAngelo_1101865305 {
+            get {
+                return ResourceManager.GetStream("Scary_Sound_Mark_DiAngelo_1101865305", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Screen_Shot_2018_11_24_at_5_51_21_PM_768x495 {

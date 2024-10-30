@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="soundplayer.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\360_F_632966537_f70WQ5jo135R4Ha2DkwKUUW2ekTzCXAh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scary_Sound-Mark_DiAngelo-1101865305.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
