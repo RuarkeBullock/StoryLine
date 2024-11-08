@@ -19,7 +19,7 @@ namespace StoryLine
 
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();  //ghgjhgjhgjhgj
 
         }
 
